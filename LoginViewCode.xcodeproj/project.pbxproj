@@ -21,6 +21,7 @@
 		3356619A2B127DC000287A90 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335661992B127DC000287A90 /* HomeScreen.swift */; };
 		3356619D2B151A1200287A90 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */; };
 		335661A02B151E0300287A90 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356619F2B151E0300287A90 /* DataUser.swift */; };
+		33F68F9C2B1A24FB009A87B0 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */; };
 		DCECAF50DE6D875CB0A00083 /* Pods_LoginViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBD104803B25A2C5863E0EB /* Pods_LoginViewCode.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		335661992B127DC000287A90 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3356619F2B151E0300287A90 /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
+		33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		7CBD104803B25A2C5863E0EB /* Pods_LoginViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B8CFF4DAAD5B99C6584A48 /* Pods-LoginViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.release.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.release.xcconfig"; sourceTree = "<group>"; };
 		E45D590371219E097F5943BB /* Pods-LoginViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.debug.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		3356619B2B1519C600287A90 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				33F68F9A2B1A24BF009A87B0 /* CustomView */,
 				3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */,
 			);
 			path = Cell;
@@ -192,6 +195,14 @@
 				3356619F2B151E0300287A90 /* DataUser.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		33F68F9A2B1A24BF009A87B0 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		B1B9E21B07CB0B39D1725C97 /* Frameworks */ = {
@@ -330,6 +341,7 @@
 				3356618A2B0C3A6B00287A90 /* RegisterViewController.swift in Sources */,
 				335661832B0AAE9200287A90 /* LoginScreen.swift in Sources */,
 				335661982B127D0F00287A90 /* HomeViewController.swift in Sources */,
+				33F68F9C2B1A24FB009A87B0 /* UserDetailView.swift in Sources */,
 				335661A02B151E0300287A90 /* DataUser.swift in Sources */,
 				3356616A2B0AA45900287A90 /* AppDelegate.swift in Sources */,
 				3356619D2B151A1200287A90 /* UserDetailTableViewCell.swift in Sources */,
