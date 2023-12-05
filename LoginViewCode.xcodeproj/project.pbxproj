@@ -22,6 +22,10 @@
 		3356619D2B151A1200287A90 /* UserDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */; };
 		335661A02B151E0300287A90 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356619F2B151E0300287A90 /* DataUser.swift */; };
 		33F68F9C2B1A24FB009A87B0 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */; };
+		33F68FA02B1A2AA3009A87B0 /* SportsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68F9F2B1A2AA3009A87B0 /* SportsTableViewCell.swift */; };
+		33F68FA32B1A2BC6009A87B0 /* SportsTableViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68FA22B1A2BC6009A87B0 /* SportsTableViewCellScreen.swift */; };
+		33F68FA62B1E4104009A87B0 /* SportCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68FA52B1E4103009A87B0 /* SportCollectionViewCell.swift */; };
+		33F68FA82B1E414C009A87B0 /* SportCollectionViewCellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F68FA72B1E414C009A87B0 /* SportCollectionViewCellScreen.swift */; };
 		DCECAF50DE6D875CB0A00083 /* Pods_LoginViewCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBD104803B25A2C5863E0EB /* Pods_LoginViewCode.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +47,10 @@
 		3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewCell.swift; sourceTree = "<group>"; };
 		3356619F2B151E0300287A90 /* DataUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUser.swift; sourceTree = "<group>"; };
 		33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		33F68F9F2B1A2AA3009A87B0 /* SportsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCell.swift; sourceTree = "<group>"; };
+		33F68FA22B1A2BC6009A87B0 /* SportsTableViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsTableViewCellScreen.swift; sourceTree = "<group>"; };
+		33F68FA52B1E4103009A87B0 /* SportCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCell.swift; sourceTree = "<group>"; };
+		33F68FA72B1E414C009A87B0 /* SportCollectionViewCellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCollectionViewCellScreen.swift; sourceTree = "<group>"; };
 		7CBD104803B25A2C5863E0EB /* Pods_LoginViewCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginViewCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B8CFF4DAAD5B99C6584A48 /* Pods-LoginViewCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.release.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.release.xcconfig"; sourceTree = "<group>"; };
 		E45D590371219E097F5943BB /* Pods-LoginViewCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginViewCode.debug.xcconfig"; path = "Target Support Files/Pods-LoginViewCode/Pods-LoginViewCode.debug.xcconfig"; sourceTree = "<group>"; };
@@ -183,8 +191,8 @@
 		3356619B2B1519C600287A90 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				33F68F9A2B1A24BF009A87B0 /* CustomView */,
-				3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */,
+				33F68F9E2B1A2A81009A87B0 /* SportsTableViewCell */,
+				33F68F9D2B1A2A40009A87B0 /* UserDetailTableViewCell */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -203,6 +211,50 @@
 				33F68F9B2B1A24FB009A87B0 /* UserDetailView.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		33F68F9D2B1A2A40009A87B0 /* UserDetailTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				33F68F9A2B1A24BF009A87B0 /* CustomView */,
+				3356619C2B151A1200287A90 /* UserDetailTableViewCell.swift */,
+			);
+			path = UserDetailTableViewCell;
+			sourceTree = "<group>";
+		};
+		33F68F9E2B1A2A81009A87B0 /* SportsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				33F68FA42B1E40B2009A87B0 /* CollectionViewCell */,
+				33F68FA12B1A2B92009A87B0 /* CustomView */,
+				33F68F9F2B1A2AA3009A87B0 /* SportsTableViewCell.swift */,
+			);
+			path = SportsTableViewCell;
+			sourceTree = "<group>";
+		};
+		33F68FA12B1A2B92009A87B0 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				33F68FA22B1A2BC6009A87B0 /* SportsTableViewCellScreen.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		33F68FA42B1E40B2009A87B0 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				33F68FA92B1E4162009A87B0 /* CollectionCustomView */,
+				33F68FA52B1E4103009A87B0 /* SportCollectionViewCell.swift */,
+				33F68FA72B1E414C009A87B0 /* SportCollectionViewCellScreen.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		33F68FA92B1E4162009A87B0 /* CollectionCustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionCustomView;
 			sourceTree = "<group>";
 		};
 		B1B9E21B07CB0B39D1725C97 /* Frameworks */ = {
@@ -340,12 +392,16 @@
 				3356618E2B0C3E4900287A90 /* RegisterScreen.swift in Sources */,
 				3356618A2B0C3A6B00287A90 /* RegisterViewController.swift in Sources */,
 				335661832B0AAE9200287A90 /* LoginScreen.swift in Sources */,
+				33F68FA62B1E4104009A87B0 /* SportCollectionViewCell.swift in Sources */,
 				335661982B127D0F00287A90 /* HomeViewController.swift in Sources */,
+				33F68FA82B1E414C009A87B0 /* SportCollectionViewCellScreen.swift in Sources */,
 				33F68F9C2B1A24FB009A87B0 /* UserDetailView.swift in Sources */,
 				335661A02B151E0300287A90 /* DataUser.swift in Sources */,
 				3356616A2B0AA45900287A90 /* AppDelegate.swift in Sources */,
 				3356619D2B151A1200287A90 /* UserDetailTableViewCell.swift in Sources */,
+				33F68FA32B1A2BC6009A87B0 /* SportsTableViewCellScreen.swift in Sources */,
 				3356619A2B127DC000287A90 /* HomeScreen.swift in Sources */,
+				33F68FA02B1A2AA3009A87B0 /* SportsTableViewCell.swift in Sources */,
 				3356618C2B0C3C7D00287A90 /* LoginViewController.swift in Sources */,
 				3356616C2B0AA45900287A90 /* SceneDelegate.swift in Sources */,
 				335661932B1130A000287A90 /* Alert.swift in Sources */,
